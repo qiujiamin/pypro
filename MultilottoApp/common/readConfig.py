@@ -24,7 +24,7 @@ class ReadConfig:
 
     def get_database(self, name):
         try:
-            return self.config.get('DATABASE', name)
+            return self.config.get('DATABASE-500dev', name)
         except Exception as e:
             print(e, '请检查配置名称')
 

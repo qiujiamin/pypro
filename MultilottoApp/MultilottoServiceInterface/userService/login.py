@@ -1,48 +1,46 @@
-from MultilottoServiceInterface.BaseService import BaseService
+#! /usr/bin/env/python
+# -*- coding:utf-8 -*-
+from MultilottoApp.MultilottoServiceInterface.BaseService import BaseService
 from common.configHttp import ConfigHttp
-
 
 class Login(BaseService):
     """
-        登录类，继承baseService类
-        传入case_name名称，生成不同的登录对象，
-        调用login_service方法去请求登录的接口，返回结果内容
+    登录类，继承bashServicel类
+    传入case_name名称，生成不同的登录对象，
+    调用login——service方法去请求登录的接口，返回结果内容
     """
-    def __init__(self, case_name):
-        super().__init__(case_name)
 
-    def login_service(self, result_type_is_str=False):
+    def __init__(self,case_name):
+        super().__init__(case_name)
+    def login_service(self,result_type_is_str = False):
         result = self.request_service(result_type_is_str)
         return result
-
     # 带cookie的登录
-    def login_cookie_service(self, case_name, result_type_is_str=False):
+    def login_cookie_service(self,case_name,resuly_type_is_str=False):
         service_header = self.add_cookie_header()
-        service_data = str(self.case_excle.get_interface_data(case_name))+self.user_check()+self.userid()+self.username()
-        service_url = self.case_excle.get_interface_url(case_name)
-        service_method = self.case_excle.get_method(case_name)
-        config_http = ConfigHttp(service_url, service_header, service_data, service_method)
-        print("这次的headers: " + str(service_header))
-        print("这次的url：" + str(service_url))
-        print("这次的data: " + str(service_data))
-        print("这次的method：" + str(service_method))
+        service_data = str(self.case_excel.get_interface_data(case_name))+self.user_check()+self.userid()+self.username()
+        service_url = self.case_excel.get_interface_url(case_name)
+        service_method = self.case_excel.get_method(case_name)
+        config_http = ConfigHttp(service_url,service_header,service_data,service_method)
+        print("这次的headers："+str(service_header))
+        print("这次的url："+str(service_url))
+        print("这次的data："+str(service_data))
+        print("这次的method："+str(service_method))
 
-        result = config_http.request_result(result_type_is_str)
+        result = config_http.request_result(resuly_type_is_str)
         return result
 
-    # 获取当前登录用户的user check
+    # 获取当前登录用户的user_check
     def user_check(self):
         result = self.login_service()
         info = result["info"]
         user_check = info["usercheck"]
-        return '&usercheck=' + str(user_check)
-
+        return '&usercheck='+str(user_check)
     def userid(self):
         result = self.login_service()
         info = result["info"]
         userid = info['userid']
         return '&userid=' + str(userid)
-
     def username(self):
         result = self.login_service()
         info = result["info"]
@@ -80,3 +78,4 @@ if __name__ == '__main__':
     # print(lg_account.add_cookie_header())
     print(lg_account.login_service())
     # print(lg_account.login_cookie_service("getdeposit"))
+

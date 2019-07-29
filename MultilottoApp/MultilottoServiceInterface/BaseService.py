@@ -13,7 +13,7 @@ class BaseService:
         self.case_excel = ReadCase('mltest8.xlsx', '工作表1') #写死，作为这个excel接口测试的用例
         self.case_name = case_name
         # 这里可能需要改一下
-        self.service_url = self.case_excel.get_interface_url(self.case_name,True,True)
+        self.service_url = self.case_excel.get_interface_url(self.case_name)
         self.service_header = self.case_excel.get_interface_headers(self.case_name)
         self.service_data = self.case_excel.get_interface_data(self.case_name)
         self.service_method = self.case_excel.get_method(self.case_name)
@@ -40,6 +40,11 @@ class BaseService:
     # 返回一个cookiejar
     def cookies(self):
         return self.config_http.cookies
+    def cookie(self):
+        return self.config_http.get_cookie()
+    def add_cookie(self,cookie):
+        self.service_header.update(cookie)
+        return self.service_header
 if __name__ == '__main__':
     # bs = BaseService("login_de_account")
     bs = BaseService("getcountryidbyip")

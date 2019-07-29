@@ -37,5 +37,6 @@ class ReadDBConfig:
         except Exception as e:
             print("%s",e)
             sys.exit()
-# if __name__ == '__main__':
-
+if __name__ == '__main__':
+    db500 = ReadDBConfig()
+    print(db500.get_conn())

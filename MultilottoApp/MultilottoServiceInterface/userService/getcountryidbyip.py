@@ -3,12 +3,11 @@ from MultilottoServiceInterface.BaseService import BaseService
 
 class GetCountryIdByIp(BaseService):
 
-    def request_getcountryidbyip_service(self):
-        result = self.request_service('getcountryidbyip')
+    def countryidbyip_service(self, result_type_is_str=False):
+        result = self.request_service(result_type_is_str)
         return result
 
 
 if __name__ == '__main__':
-    getidbyip = GetCountryIdByIp()
-    #getidbyip.request_getcountryidbyip_service()
-    print(getidbyip.request_getcountryidbyip_service())
+    getidbyip = GetCountryIdByIp("getcountryidbyip")
+    print(getidbyip.countryidbyip_service())

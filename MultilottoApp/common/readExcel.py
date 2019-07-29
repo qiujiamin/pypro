@@ -2,17 +2,19 @@
 # -*- coding:utf-8 -*-
 from xlrd import open_workbook
 import os
-from common.getpathInfo import get_path
+from MultilottoApp.common.getpathInfo import get_path
 import json
 
 class ReadExcel:
     path = get_path()
+    print(path)
 
     def __init__(self,excel_name,sheet_name):
         self.sheet_name = sheet_name
         self.excel_name = excel_name
 #     获取文件路径
-        self.excel_path = os.path.join(self.path,"..\\testFile", excel_name) #文件定位为当前path路径的上一层testfile/excelname
+        self.excel_path = os.path.join(self.path, "../testFile", excel_name) #文件定位为当前path路径的上一层testfile/excelname
+        print(self.excel_path)
         self.file = open_workbook(self.excel_path) # 打开excel文件
         self.sheet = self.file.sheet_by_name(sheet_name) #打开excel指定的sheet
 #获取sheet的行，列数
@@ -28,7 +30,7 @@ class ReadExcel:
         return cls
 
 if __name__ == '__main__':
-    r = ReadExcel('mltest7.xlsx','工作表1')
+    r = ReadExcel('mltest.xlsx','工作表1')
     s = (r.get_excel())
     print(type(json.dumps(r.get_excel())))
     print(r.nrows)

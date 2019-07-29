@@ -19,8 +19,8 @@ class ReadCase:
     def get_excel_name(self):
         return self.excel_name
     # 根据用例名称获取接口地址，协议+host+port+path
-    def get_interface_url(self,case_name,no_online=True,is_serv=True):
-        if no_online and is_serv:
+    def get_interface_url(self,case_name,is_dev=True,is_serv=True):
+        if is_dev and is_serv:
             try:
                 new_url = self.readConfig.get_service_dev('scheme') + '://' + self.readConfig.get_service_dev(
                     'host') + ':' + self.readConfig.get_service_dev(
@@ -28,8 +28,8 @@ class ReadCase:
                 return new_url
             except Exception as e:
                 print(e)
-                print("线上服务用例名称不存在或输入错误，请检查")
-        elif no_online and is_serv==False:
+                print("dev服务用例名称不存在或输入错误，请检查")
+        elif is_dev and is_serv==False:
             try:
                 new_url = self.readConfig.get_h5app_dev('scheme') + '://' + self.readConfig.get_h5app_dev(
                     'host') + ':' + self.readConfig.get_h5app_dev(
@@ -37,23 +37,23 @@ class ReadCase:
                 return new_url
             except Exception as e:
                 print(e)
-                print("线上h5app用例名称不存在或输入错误，请检查")
-        elif no_online==False and is_serv:
+                print("devh5app用例名称不存在或输入错误，请检查")
+        elif is_dev==False and is_serv:
             try:
                 new_url = self.readConfig.get_service_online('scheme') + '://' + self.readConfig.get_service_online(
                     'host') + ':' + self.readConfig.get_service_online('port') + self.get_path(case_name)
                 return new_url
             except Exception as e:
                 print(e)
-                print("dev服务用例名称不存在或输入错误，请检查")
-        elif no_online==False and is_serv==False:
+                print("online服务用例名称不存在或输入错误，请检查")
+        elif is_dev==False and is_serv==False:
             try:
                 new_url = self.readConfig.get_h5app_online('scheme') + '://' + self.readConfig.get_h5app_online(
                     'host') + ':' + self.readConfig.get_h5app_online('port') + self.get_path(case_name)
                 return new_url
             except Exception as e:
                 print(e)
-                print("dev服务用例名称不存在或输入错误，请检查")
+                print("onlineh5app用例名称不存在或输入错误，请检查")
         else:
             print('未知错误')
 

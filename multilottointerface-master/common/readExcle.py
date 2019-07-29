@@ -12,6 +12,7 @@ class ReadExcle:
         self.excle_name = excle_name
     # 获取文件路径
         self.excle_path = os.path.join(self.path, "../testFile", excle_name)  # 文件定位为当前path路径的上一层的testfile/exclename
+        print(self.excle_path)
         self.file = open_workbook(self.excle_path)  # 打开excle文件
         self.sheet = self.file.sheet_by_name(sheet_name)  # 打开excle指定的sheet
     # 获取sheet的行、列数

@@ -7,14 +7,13 @@ import time
 get_path = os.path.dirname(os.path.abspath(__file__))
 
 log_path = os.path.join(get_path,'..\\result','logfile')
-print(log_path)
+# print(log_path)
 if not os.path.exists(log_path):
     os.mkdir(log_path)
 
 class Log:
     def __init__(self):
         self.logname = os.path.join(log_path, time.strftime('%Y.%m.%d.%H.%M.%S', time.localtime(time.time())) + '.log')
-        # self.logname = os.path,time.strftime('%Y.%m.%d.%H.%M.%S',time.localtime(time.time())+'.log')
         self.logger = logging.getLogger()
         # 设置日志级别
         self.logger.setLevel(logging.DEBUG)
@@ -40,6 +39,7 @@ class Log:
             self.logger.warning(message)
         elif level == 'error':
             self.logger.error(message)
+
         self.logger.removeHandler(ch)
         self.logger.removeHandler(fh)
 
