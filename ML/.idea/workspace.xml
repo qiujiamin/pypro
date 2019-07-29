@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="85f126b0-9a6a-4bdb-8e87-422a3f7509fc" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/common/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/configDB.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/configEmail.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/configHttp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/HTMLTestRunner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/HTMLtestreport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/testResult.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/Case_suites.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/multilotto_get_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/testcase_login.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/testcase_login_null.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/textTestResult.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testFile/CaseExcles/mltest.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testFile/HTMLTestReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testFile/RunAll.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testFile/TestDB.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testFile/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testFile/config.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testFile/getpathInfo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testFile/getpathInfo.sublime-workspace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testFile/readCase.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testFile/readConfig.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testFile/readExcle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testFile/test_api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testFile/test_api.sublime-workspace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testFile/textTestResult.txt" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Unit Test" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/common/HTMLTestRunner.py" />
+        <option value="$PROJECT_DIR$/common/configDB.py" />
+        <option value="$PROJECT_DIR$/testFile/test_api.py" />
+        <option value="$PROJECT_DIR$/testFile/geturlParams.py" />
+        <option value="$PROJECT_DIR$/testFile/getpathInfo.py" />
+        <option value="$PROJECT_DIR$/testFile/get_interface_url.py" />
+        <option value="$PROJECT_DIR$/testFile/Interface_url.py" />
+        <option value="$PROJECT_DIR$/common/__init__.py" />
+        <option value="$PROJECT_DIR$/testCase/__init.py" />
+        <option value="$PROJECT_DIR$/testFile/__init__.py" />
+        <option value="$PROJECT_DIR$/testFile/TestDB.py" />
+        <option value="$PROJECT_DIR$/testCase/HTMLTestRunner.py" />
+        <option value="$PROJECT_DIR$/testCase/HTMLTestReport.py" />
+        <option value="$PROJECT_DIR$/testCase/HTMtestReport1.py" />
+        <option value="$PROJECT_DIR$/testCase/Case_suites.py" />
+        <option value="$PROJECT_DIR$/testFile/config.ini" />
+        <option value="$PROJECT_DIR$/caogao.py" />
+        <option value="$PROJECT_DIR$/common/configHttp.py" />
+        <option value="$PROJECT_DIR$/testCase/testResult.py" />
+        <option value="$PROJECT_DIR$/result/__init__.py" />
+        <option value="$PROJECT_DIR$/result/testResult.py" />
+        <option value="$PROJECT_DIR$/testFile/readConfig.py" />
+        <option value="$PROJECT_DIR$/testFile/readCase.py" />
+        <option value="$PROJECT_DIR$/testCase/testcase_login.py" />
+        <option value="$PROJECT_DIR$/testFile/readExcle.py" />
+        <option value="$PROJECT_DIR$/testCase/multilotto_get_config.py" />
+        <option value="$PROJECT_DIR$/testFile/RunAll.py" />
+        <option value="$PROJECT_DIR$/result/HTMLtestreport.html" />
+        <option value="$PROJECT_DIR$/common/log.py" />
+        <option value="$PROJECT_DIR$/testCase/testcase_login_null.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="523" />
+    <option name="y" value="133" />
+    <option name="width" value="1362" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="ML" type="cbb8eebc:String" user="ML" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\monitor\PycharmProjects\ML\result" />
+      <recent name="C:\Users\monitor\PycharmProjects\ML\common" />
+      <recent name="C:\Users\monitor\PycharmProjects\ML" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests for testcase_login_null.LoginNull">
+    <configuration name="RunAll" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testFile" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testFile/RunAll.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="log" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/log.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="readExcle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testFile" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testFile/readExcle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Unittests for multilotto_get_config.TestML.testGetnearbyplace" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;multilotto_get_config.TestML.testGetnearbyplace&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for testcase_login_null.LoginNull" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testcase_login_null.LoginNull&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.RunAll" />
+      <item itemvalue="Python.readExcle" />
+      <item itemvalue="Python tests.Unittests for multilotto_get_config.TestML.testGetnearbyplace" />
+      <item itemvalue="Python.log" />
+      <item itemvalue="Python tests.Unittests for testcase_login_null.LoginNull" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for testcase_login_null.LoginNull" />
+        <item itemvalue="Python.log" />
+        <item itemvalue="Python.RunAll" />
+        <item itemvalue="Python tests.Unittests for multilotto_get_config.TestML.testGetnearbyplace" />
+        <item itemvalue="Python.readExcle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85f126b0-9a6a-4bdb-8e87-422a3f7509fc" name="Default" comment="" />
+      <created>1555469087026</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555469087026</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_multilotto_get_config_TestML - 2019.04.29 at 12h 53m 05s.xml">
+      <configuration name="Unittests for multilotto_get_config.TestML" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_multilotto_get_config_py - 2019.04.29 at 14h 53m 25s.xml">
+      <configuration name="Unittests in multilotto_get_config.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_multilotto_get_config_py - 2019.04.29 at 14h 54m 05s.xml">
+      <configuration name="Unittests in multilotto_get_config.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testcase_login_Login_test_login - 2019.04.29 at 15h 22m 55s.xml">
+      <configuration name="Unittests for testcase_login.Login.test_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testcase_login_Login_test_login - 2019.04.29 at 15h 23m 19s.xml">
+      <configuration name="Unittests for testcase_login.Login.test_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testcase_login_Login_test_login_error - 2019.04.29 at 15h 24m 54s.xml">
+      <configuration name="Unittests for testcase_login.Login.test_login_error" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_multilotto_get_config_TestML_testGetnearbyplace - 2019.04.30 at 11h 09m 03s.xml">
+      <configuration name="Unittests for multilotto_get_config.TestML.testGetnearbyplace" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testcase_login_null_LoginNull - 2019.05.09 at 11h 08m 11s.xml">
+      <configuration name="Unittests for testcase_login_null.LoginNull" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testcase_login_null_LoginNull - 2019.05.09 at 11h 25m 49s.xml">
+      <configuration name="Unittests for testcase_login_null.LoginNull" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testcase_login_null_LoginNull - 2019.05.09 at 11h 26m 16s.xml">
+      <configuration name="Unittests for testcase_login_null.LoginNull" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="523" y="133" width="1362" height="728" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22808321" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005208" side_tool="true" weight="0.30679405" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.36052203" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39808917" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32873562" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="9" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/testFile/readExcle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.6.5/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4860">
+          <caret line="182" column="9" selection-start-line="182" selection-start-column="4" selection-end-line="182" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testFile/readConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testFile/readCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testFile/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testFile/test_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testFile/readExcle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.6.5/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4860">
+          <caret line="182" column="9" lean-forward="true" selection-start-line="182" selection-start-column="4" selection-end-line="182" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testFile/readConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testFile/getpathInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.6.5/Lib/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="81" column="18" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/xlrd/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/requests/sessions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="545" column="47" lean-forward="true" selection-start-line="545" selection-start-column="47" selection-end-line="545" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.6.5/Lib/configparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="690" column="50" selection-start-line="690" selection-start-column="42" selection-end-line="690" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/configDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/HTMLTestReport.py" />
+    <entry file="file://D:/python3.6.5/Lib/unittest/suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="48" column="65" selection-start-line="48" selection-start-column="65" selection-end-line="48" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testFile/TestDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1490">
+          <caret line="566" column="28" selection-start-line="566" selection-start-column="28" selection-end-line="566" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.6.5/Lib/unittest/result.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4360">
+          <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/testresult" />
+    <entry file="file://D:/python3.6.5/Lib/unittest/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="150" column="11" selection-start-line="150" selection-start-column="8" selection-end-line="150" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.6.5/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.6.5/Lib/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="183" column="4" selection-start-line="183" selection-start-column="4" selection-end-line="183" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/requests/adapters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="509" selection-start-line="509" selection-end-line="509" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/requests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2916" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/requests/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="872" column="8" selection-start-line="872" selection-start-column="8" selection-end-line="872" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/requests/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="100" column="41" lean-forward="true" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.6.5/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="302" column="62" selection-start-line="302" selection-start-column="45" selection-end-line="302" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testFile/getpathInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caogao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testFile/test_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="28" column="51" lean-forward="true" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testFile/readConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/testcase_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/textTestResult.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1458">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testFile/readCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/Case_suites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testFile/readExcle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/testResult.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/HTMLtestreport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-720383870/time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-607">
+          <caret line="168" column="4" selection-start-line="168" selection-start-column="4" selection-end-line="168" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/1557370173.7370722.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testFile/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/configHttp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.6.5/Lib/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="1016" column="38" lean-forward="true" selection-start-line="1016" selection-start-column="38" selection-end-line="1016" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/multilotto_get_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/2019.05.09.11.08.10.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/log/2019.05.09.11.26.15.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/testcase_login_null.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testFile/RunAll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

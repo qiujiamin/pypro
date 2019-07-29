@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="All Places" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="890fe64a-b0ed-477f-bd6f-00fac85dbbc3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/testCase/testcase_payment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultilottoServiceInterface/OrderService/getpaymentmethods.py" beforeDir="false" afterPath="$PROJECT_DIR$/MultilottoServiceInterface/OrderService/getpaymentmethods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultilottoServiceInterface/PaymentService/getdeposit.py" beforeDir="false" afterPath="$PROJECT_DIR$/MultilottoServiceInterface/PaymentService/getdeposit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultilottoServiceInterface/userService/accountcenter.py" beforeDir="false" afterPath="$PROJECT_DIR$/MultilottoServiceInterface/userService/accountcenter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultilottoServiceInterface/userService/getcountryidbyip.py" beforeDir="false" afterPath="$PROJECT_DIR$/MultilottoServiceInterface/userService/getcountryidbyip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultilottoServiceInterface/userService/getnearbyplaces.py" beforeDir="false" afterPath="$PROJECT_DIR$/MultilottoServiceInterface/userService/getnearbyplaces.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultilottoServiceInterface/userService/getvaildcountries.py" beforeDir="false" afterPath="$PROJECT_DIR$/MultilottoServiceInterface/userService/getvaildcountries.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultilottoServiceInterface/userService/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/MultilottoServiceInterface/userService/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RunAll.py" beforeDir="false" afterPath="$PROJECT_DIR$/RunAll.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/HTMLReport/2019.05.23.15.52.16HTMLReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/HTMLReport/2019.05.23.15.52.38HTMLReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/HTMLReport/2019.05.23.15.52.48HTMLReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/HTMLReport/2019.05.23.15.52.56HTMLReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/HTMLReport/2019.05.23.15.53.28HTMLReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/HTMLReport/2019.05.23.15.58.27HTMLReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/HTMLReport/2019.05.23.16.00.17HTMLReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/testResult.py" beforeDir="false" afterPath="$PROJECT_DIR$/result/testResult.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/multilotto_get_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCase/testcase_getinfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/testcase_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCase/testcase_login.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="testcase_payment.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testCase/testcase_payment.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getpaymentmethods.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MultilottoServiceInterface/OrderService/getpaymentmethods.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getvaildcountries.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MultilottoServiceInterface/userService/getvaildcountries.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="55" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getnearbyplaces.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MultilottoServiceInterface/userService/getnearbyplaces.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testcase_getinfo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testCase/testcase_getinfo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RunAll.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RunAll.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <folding>
+                <element signature="e#24#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testResult.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/result/testResult.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#24#72#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testcase_login.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testCase/testcase_login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="27" column="19" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>utils</find>
+      <find>userche</find>
+      <find>username</find>
+      <find>lastna</find>
+      <find>d19c7a743683b32fc4393b80bca950e171560158313</find>
+      <find>usercheck</find>
+      <find>ck_MDdmYzZlMzY4ODkxYjZjZGQ2YTM4ZWYyYjgxNTk3MzI</find>
+      <find>uid</find>
+      <find>uniq</find>
+      <find>firstname</find>
+      <find>first</find>
+      <find>ML</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/common/getpathInfo.py" />
+        <option value="$PROJECT_DIR$/testFile/config.ini" />
+        <option value="$PROJECT_DIR$/test_api.py" />
+        <option value="$PROJECT_DIR$/common/readExcle.py" />
+        <option value="$PROJECT_DIR$/MultilottoServiceInterface/userService/getCountryidbyip.py" />
+        <option value="$PROJECT_DIR$/MultilottoServiceInterface/lotInfoService/getlottoinfo.py" />
+        <option value="$PROJECT_DIR$/MultilottoServiceInterface/OthersService/getconfig.py" />
+        <option value="$PROJECT_DIR$/common/readCase.py" />
+        <option value="$PROJECT_DIR$/common/configHttp.py" />
+        <option value="$PROJECT_DIR$/spertmoney.py" />
+        <option value="$PROJECT_DIR$/MultilottoServiceInterface/BaseService.py" />
+        <option value="$PROJECT_DIR$/MultilottoServiceInterface/userService/logou.py" />
+        <option value="$PROJECT_DIR$/MultilottoServiceInterface/userService/logout.py" />
+        <option value="$PROJECT_DIR$/common/readConfig.py" />
+        <option value="$PROJECT_DIR$/MultilottoServiceInterface/userService/login.py" />
+        <option value="$PROJECT_DIR$/testCase/testcase_login.py" />
+        <option value="$PROJECT_DIR$/MultilottoServiceInterface/userService/accountcenter.py" />
+        <option value="$PROJECT_DIR$/MultilottoServiceInterface/userService/getvaildcountries.py" />
+        <option value="$PROJECT_DIR$/MultilottoServiceInterface/userService/getcountryidbyip.py" />
+        <option value="$PROJECT_DIR$/MultilottoServiceInterface/userService/getnearbyplaces.py" />
+        <option value="$PROJECT_DIR$/testCase/testcase_getinfo.py" />
+        <option value="$PROJECT_DIR$/MultilottoServiceInterface/PaymentService/getdeposit.py" />
+        <option value="$PROJECT_DIR$/testCase/testcase_deposit.py" />
+        <option value="$PROJECT_DIR$/testCase/testcase_payment.py" />
+        <option value="$PROJECT_DIR$/result/testResult.py" />
+        <option value="$PROJECT_DIR$/MultilottoServiceInterface/OrderService/getpaymentmethods.py" />
+        <option value="$PROJECT_DIR$/RunAll.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="105" />
+    <option name="y" value="131" />
+    <option name="width" value="1548" />
+    <option name="height" value="905" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="multilottointerface" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multilottointerface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multilottointerface" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multilottointerface" type="462c0819:PsiDirectoryNode" />
+              <item name="MultilottoServiceInterface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multilottointerface" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multilottointerface" type="462c0819:PsiDirectoryNode" />
+              <item name="MultilottoServiceInterface" type="462c0819:PsiDirectoryNode" />
+              <item name="lotInfoService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multilottointerface" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multilottointerface" type="462c0819:PsiDirectoryNode" />
+              <item name="MultilottoServiceInterface" type="462c0819:PsiDirectoryNode" />
+              <item name="OrderService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multilottointerface" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multilottointerface" type="462c0819:PsiDirectoryNode" />
+              <item name="MultilottoServiceInterface" type="462c0819:PsiDirectoryNode" />
+              <item name="PaymentService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multilottointerface" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multilottointerface" type="462c0819:PsiDirectoryNode" />
+              <item name="MultilottoServiceInterface" type="462c0819:PsiDirectoryNode" />
+              <item name="userService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multilottointerface" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multilottointerface" type="462c0819:PsiDirectoryNode" />
+              <item name="result" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multilottointerface" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multilottointerface" type="462c0819:PsiDirectoryNode" />
+              <item name="testCase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multilottointerface" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multilottointerface" type="462c0819:PsiDirectoryNode" />
+              <item name="testFile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multilottointerface" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/CC/.PyCharmCE2017.3/system/python_stubs/72907938/_thread.py" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.RunAll">
+    <configuration name="RunAll" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="multilottointerface" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RunAll.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="getpaymentmethods" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="multilottointerface" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MultilottoServiceInterface/OrderService" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MultilottoServiceInterface/OrderService/getpaymentmethods.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Unittests for testcase_deposit.DepositTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="multilottointerface" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testcase_deposit.DepositTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for testcase_getinfo.GetInfo.test_get_account_center" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="multilottointerface" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testcase_getinfo.GetInfo.test_get_account_center&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for testcase_payment.Payment.test_get_payment_method" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="multilottointerface" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testcase_payment.Payment.test_get_payment_method&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.getpaymentmethods" />
+      <item itemvalue="Python tests.Unittests for testcase_payment.Payment.test_get_payment_method" />
+      <item itemvalue="Python.RunAll" />
+      <item itemvalue="Python tests.Unittests for testcase_deposit.DepositTest" />
+      <item itemvalue="Python tests.Unittests for testcase_getinfo.GetInfo.test_get_account_center" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.RunAll" />
+        <item itemvalue="Python tests.Unittests for testcase_getinfo.GetInfo.test_get_account_center" />
+        <item itemvalue="Python tests.Unittests for testcase_deposit.DepositTest" />
+        <item itemvalue="Python tests.Unittests for testcase_payment.Payment.test_get_payment_method" />
+        <item itemvalue="Python.getpaymentmethods" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="890fe64a-b0ed-477f-bd6f-00fac85dbbc3" name="Default" comment="" />
+      <created>1558601180572</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558601180572</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_testcase_getinfo_GetInfo_test_get_vaild_country - 2019.06.20 at 11h 30m 19s.xml">
+      <configuration name="Unittests for testcase_getinfo.GetInfo.test_get_vaild_country" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testcase_getinfo_GetInfo_test_get_vaild_country - 2019.06.20 at 11h 30m 49s.xml">
+      <configuration name="Unittests for testcase_getinfo.GetInfo.test_get_vaild_country" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testcase_getinfo_GetInfo_test_get_vaild_country - 2019.06.20 at 11h 31m 27s.xml">
+      <configuration name="Unittests for testcase_getinfo.GetInfo.test_get_vaild_country" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testcase_deposit_GetInfo_test_get_deposit - 2019.06.20 at 11h 42m 03s.xml">
+      <configuration name="Unittests for testcase_deposit.GetInfo.test_get_deposit" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testcase_deposit_py - 2019.06.20 at 11h 42m 16s.xml">
+      <configuration name="Unittests in testcase_deposit.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testcase_deposit_GetInfo - 2019.06.20 at 11h 42m 28s.xml">
+      <configuration name="Unittests for testcase_deposit.GetInfo" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testcase_payment_Payment_test_get_payment_method - 2019.06.20 at 11h 58m 17s.xml">
+      <configuration name="Unittests for testcase_payment.Payment.test_get_payment_method" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testcase_deposit_DepositTest - 2019.06.20 at 12h 15m 41s.xml">
+      <configuration name="Unittests for testcase_deposit.DepositTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testcase_deposit_DepositTest - 2019.06.20 at 12h 17m 10s.xml">
+      <configuration name="Unittests for testcase_deposit.DepositTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testcase_getinfo_GetInfo_test_get_account_center - 2019.06.20 at 12h 19m 29s.xml">
+      <configuration name="Unittests for testcase_getinfo.GetInfo.test_get_account_center" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1796875" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32979852" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35494155" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39952436" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/common/configHttp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultilottoServiceInterface/userService/getcountryidbyip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="52" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultilottoServiceInterface/userService/getnearbyplaces.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" selection-start-line="10" selection-end-line="13" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultilottoServiceInterface/userService/getvaildcountries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/readCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2130">
+          <caret line="73" column="26" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/readExcle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/configHttp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultilottoServiceInterface/userService/getcountryidbyip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultilottoServiceInterface/BaseService.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testFile/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="707">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/getpathInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.6.5/Lib/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1799">
+          <caret line="748" selection-start-line="748" selection-end-line="748" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.6.5/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-449">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/72907938/_thread.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/re.py" />
+    <entry file="file://$PROJECT_DIR$/testFile/Decorator.py" />
+    <entry file="file://$PROJECT_DIR$/restr.py" />
+    <entry file="file://$PROJECT_DIR$/common/readExcle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python3.6.5/Lib/site-packages/requests/sessions.py" />
+    <entry file="file://D:/Python3.6.5/Lib/site-packages/requests/models.py" />
+    <entry file="file://$PROJECT_DIR$/common/readCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="73" column="42" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python3.6.5/Lib/site-packages/requests/utils.py" />
+    <entry file="file://D:/Python3.6.5/Lib/site-packages/requests/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/spertmoney.py" />
+    <entry file="file://$PROJECT_DIR$/MultilottoServiceInterface/BaseService.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/configHttp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/logfile/2019.06.19.11.26.58.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/testcase_login_null.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultilottoServiceInterface/userService/logout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/Case_suites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/readConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultilottoServiceInterface/userService/accountcenter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultilottoServiceInterface/userService/getcountryidbyip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultilottoServiceInterface/OthersService/getconfig.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultilottoServiceInterface/lotInfoService/getlottoinfo.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultilottoServiceInterface/PaymentService/getdeposit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultilottoServiceInterface/userService/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="18" column="64" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.6.5/Lib/unittest/suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultilottoServiceInterface/userService/getvaildcountries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="55" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultilottoServiceInterface/userService/getnearbyplaces.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/testcase_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/testResult.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#24#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/HTMLReport/2019.06.20.12.13.24HTMLReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/testcase_deposit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultilottoServiceInterface/OrderService/getpaymentmethods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/testcase_payment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/logfile/2019.06.20.12.18.16.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/testcase_getinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RunAll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="e#24#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

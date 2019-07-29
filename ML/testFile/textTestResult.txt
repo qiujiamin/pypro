@@ -1,0 +1,55 @@
+test_login_error (testCase.testcase_login.Login) ... ok
+test_login_null (testCase.testcase_login_null.LoginNull) ... ok
+testGetnearbyplace (testCase.multilotto_get_config.TestML) ... ERROR
+test_login (testCase.testcase_login.Login) ... ok
+
+======================================================================
+ERROR: testGetnearbyplace (testCase.multilotto_get_config.TestML)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\monitor\AppData\Roaming\Python\Python36\site-packages\urllib3\connectionpool.py", line 595, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\monitor\AppData\Roaming\Python\Python36\site-packages\urllib3\connectionpool.py", line 816, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\monitor\AppData\Roaming\Python\Python36\site-packages\urllib3\connection.py", line 294, in connect
+    self._tunnel()
+  File "D:\python3.6.5\lib\http\client.py", line 919, in _tunnel
+    message.strip()))
+OSError: Tunnel connection failed: 504 Couldn't connect: SOCKS protocol error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\monitor\AppData\Roaming\Python\Python36\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Users\monitor\AppData\Roaming\Python\Python36\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\monitor\AppData\Roaming\Python\Python36\site-packages\urllib3\util\retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='h5app-dev.multilotto.net', port=443): Max retries exceeded with url: /api/user/getnearbyplaces?casinoversion=2.6.1&language=EN&latlng=22.53412023924367%2C113.94862337373765&platform=300%0A0&pushid=a7b69ace-4b6d-49e4-8ef4-%0A077c58a182b3&pushproject=curacao&remote_addr=192.168.22.151&subchannel=1004&uniq=D69DE87%0A4-EA21-40A7-8DA3-8FDE0BC5DE62&usercheck=&userid=&username=&version=2.6.1 (Caused by ProxyError('Cannot connect to proxy.', OSError("Tunnel connection failed: 504 Couldn't connect: SOCKS protocol error",)))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\monitor\PycharmProjects\ML\testCase\multilotto_get_config.py", line 15, in testGetnearbyplace
+    result = RunMain().run_main('get', self.getnearbyplaces_url, self.getnearbyplaces_headers, self.getnearbyplaces_data,True)
+  File "C:\Users\monitor\PycharmProjects\ML\common\configHttp.py", line 28, in run_main
+    result = self.get(url, header, data, is_str)
+  File "C:\Users\monitor\PycharmProjects\ML\common\configHttp.py", line 16, in get
+    result = requests.get(url=url, headers=header, params=data).json()
+  File "C:\Users\monitor\AppData\Roaming\Python\Python36\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\monitor\AppData\Roaming\Python\Python36\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\monitor\AppData\Roaming\Python\Python36\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\monitor\AppData\Roaming\Python\Python36\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\monitor\AppData\Roaming\Python\Python36\site-packages\requests\adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='h5app-dev.multilotto.net', port=443): Max retries exceeded with url: /api/user/getnearbyplaces?casinoversion=2.6.1&language=EN&latlng=22.53412023924367%2C113.94862337373765&platform=300%0A0&pushid=a7b69ace-4b6d-49e4-8ef4-%0A077c58a182b3&pushproject=curacao&remote_addr=192.168.22.151&subchannel=1004&uniq=D69DE87%0A4-EA21-40A7-8DA3-8FDE0BC5DE62&usercheck=&userid=&username=&version=2.6.1 (Caused by ProxyError('Cannot connect to proxy.', OSError("Tunnel connection failed: 504 Couldn't connect: SOCKS protocol error",)))
+
+----------------------------------------------------------------------
+Ran 4 tests in 21.081s
+
+FAILED (errors=1)
