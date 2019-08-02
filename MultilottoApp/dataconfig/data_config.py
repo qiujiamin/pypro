@@ -1,5 +1,6 @@
 #! /usr/bin/env/python
 # -*- coding:utf-8 -*-
+# test
 class global_var:
     #case_id
     Id = '0'
