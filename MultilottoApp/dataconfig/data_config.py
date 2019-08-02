@@ -4,7 +4,7 @@ class global_var:
     #case_id
     Id = '0'
     request_name = '1'
-    url = '2'
+    url_path = '2'
     run ='3'
     run_way = '4'
     header = '5'
@@ -24,8 +24,8 @@ def get_id():
 def get_request_name():
     return global_var.request_name
 # 获取url
-def get_url():
-    return global_var.url
+def get_url_path():
+    return global_var.url_path
 # 获取是否执行
 def get_run():
     return global_var.run

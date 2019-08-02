@@ -13,7 +13,7 @@ class OperationHeader:
 		'''
 		获取登录返回的token的url
 		'''
-		url = self.response['data']['url'][0]
+		url = self.response['dataconfig']['url'][0]
 		return url
 
 	def get_cookie(self):

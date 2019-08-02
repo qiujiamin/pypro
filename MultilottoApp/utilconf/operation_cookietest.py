@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 import  requests
 # url = "http://m.imooc.com/passport/user/login"
-# data={
+# dataconfig={
 #     "username":"15019498582",
 #     "password":"ssbx521qjm",
 #     "verify":"",

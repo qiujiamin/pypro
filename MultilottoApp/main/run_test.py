@@ -2,12 +2,12 @@
 import sys
 sys.path.append("E:/www/ImoocInterface")
 from base.runmethod import RunMethod
-from data.get_data import GetData
-from util.common_util import CommonUtil
-from data.dependent_data import DependdentData
-from util.send_email import SendEmail
-from util.operation_header import OperationHeader
-from util.operation_json import OperetionJson
+from dataconfig.get_data import GetData
+from utilconf.common_util import CommonUtil
+from dataconfig.dependent_data import DependdentData
+from utilconf.send_email import SendEmail
+from utilconf.operation_header import OperationHeader
+from utilconf.operation_json import OperetionJson
 class RunTest:
 	def __init__(self):
 		self.run_method = RunMethod()

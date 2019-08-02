@@ -2,8 +2,8 @@
 # -*- coding:utf-8 -*-
 import xlrd
 from xlutils.copy  import copy
-# data = xlrd.open_workbook('../dataconfig/mltest-qjm(2).xlsx')
-# tables = data.sheets()[0]
+# dataconfig = xlrd.open_workbook('../dataconfig/mltest-qjm(2).xlsx')
+# tables = dataconfig.sheets()[0]
 # # 统计总共行数
 # print (tables.nrows)
 # # 打印二行3列数据
@@ -12,11 +12,11 @@ from xlutils.copy  import copy
 class OperationExcel:
     def __init__(self,file_name=None,sheet_id=None):
         # 传进来的时候就用
-        # self.data = self.get_data(file_name,sheet_id)
+        # self.dataconfig = self.get_data(file_name,sheet_id)
         if file_name:
             self.file_name = file_name
             self.sheet_id = sheet_id
-            # self.data = self.get_data(file_name,sheet_id)
+            # self.dataconfig = self.get_data(file_name,sheet_id)
         else:
             self.file_name = '../dataconfig/mltest-qjm3.xlsx'
             self.sheet_id = 0
@@ -24,9 +24,9 @@ class OperationExcel:
     # 拿出excel数据
     # 获取sheets的内容
     def get_data(self):
-        # data = xlrd.open_workbook('../dataconfig/mltest-qjm(2).xlsx')
+        # dataconfig = xlrd.open_workbook('../dataconfig/mltest-qjm(2).xlsx')
        data =  xlrd.open_workbook(self.file_name)
-        # tables = data.sheets()[0]
+        # tables = dataconfig.sheets()[0]
        tables = data.sheets()[self.sheet_id]
        return tables
     # 获取单元格行数
@@ -35,7 +35,7 @@ class OperationExcel:
         return tables.nrows
     # 获取某个单元格的内容
     def get_cell_value(self,row,col):
-        # return self.data.cell_value(row,col)
+        # return self.dataconfig.cell_value(row,col)
         return self.data.cell_value(row,col)
 #     写入数据
     def write_value(self,row,col,value):

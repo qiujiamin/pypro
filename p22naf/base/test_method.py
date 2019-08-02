@@ -19,9 +19,9 @@ class TestMethod(unittest.TestCase):
 			'cid':'0',
 			'errorCode':1001
 		}
-		#self.run.run_main = mock.Mock(return_value=data)
+		#self.run.run_main = mock.Mock(return_value=dataconfig)
 		res = mock_test(self.run.run_main,data,url,"POST",data)
-		#res = self.run.run_main(url,'POST',data)
+		#res = self.run.run_main(url,'POST',dataconfig)
 
 		print res
 		self.assertEqual(res['errorCode'],1001,"测试失败")

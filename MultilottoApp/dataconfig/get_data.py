@@ -1,8 +1,8 @@
 #! /usr/bin/env/python
 # -*- coding:utf-8 -*-
-from util.operation_excel import OperationExcel
+from utilconf.operation_excel import OperationExcel
 import data_config
-from util.operation_json import OperationJson
+from utilconf.operation_json import OperationJson
 # 拿excel数据
 class GetData:
     def __init__(self):

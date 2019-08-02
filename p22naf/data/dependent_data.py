@@ -2,9 +2,9 @@
 import sys
 import json
 sys.path.append('E:/www/ImoocInterface/')
-from util.operation_excel import OperationExcel
+from utilconf.operation_excel import OperationExcel
 from base.runmethod import RunMethod
-from data.get_data import GetData
+from dataconfig.get_data import GetData
 from jsonpath_rw import jsonpath,parse
 class DependdentData:
 	def __init__(self,case_id):
@@ -22,7 +22,7 @@ class DependdentData:
 		run_method = RunMethod()
 		row_num  = self.opera_excel.get_row_num(self.case_id)
 		request_data = self.data.get_data_for_json(row_num)
-		#header = self.data.is_header(row_num)
+		#header = self.dataconfig.is_header(row_num)
 		method = self.data.get_request_method(row_num)
 		url = self.data.get_request_url(row_num)
 		res = run_method.run_main(method,url,request_data)
@@ -38,7 +38,7 @@ class DependdentData:
 
 if __name__ == '__main__':
 	order = {
-		"data": {
+		"dataconfig": {
 			"_input_charset": "utf-8", 
 			"body": "慕课网订单-1710141907182334", 
 			"it_b_pay": "1d", 
@@ -59,7 +59,7 @@ if __name__ == '__main__':
 			"status": 1, 
 			"timestamp": 1507979239100
 		}
-	res = "data.out_trade_no"
+	res = "dataconfig.out_trade_no"
 	json_exe = parse(res)
 	madle = json_exe.find(order)
 	print [math.value for math in madle][0]

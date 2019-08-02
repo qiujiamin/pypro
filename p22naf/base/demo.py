@@ -26,4 +26,4 @@ if __name__ == '__main__':
 	run = RunMain(url,'GET',data)
 	print run.res
 	unittest
-	#print run.run_main(url,'GET',data)
+	#print run.run_main(url,'GET',dataconfig)

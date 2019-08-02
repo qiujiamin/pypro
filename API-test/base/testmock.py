@@ -51,12 +51,12 @@ class TestMethod(unittest.TestCase):
     #     # print(self.userid)
     #     # print(userid)
     #     url = 'http://www.imooc.com/m/web/shizhanapi/loadmorepingjia.html'
-    #     data = {
+    #     dataconfig = {
     #     'cart':'11'
     #     }
     #     res = self.run.runmain(url,'GET')
     #     # print(res)
-    #     self.assertEqual(res['data']['errorCode'],1006,"测试失败")
+    #     self.assertEqual(res['dataconfig']['errorCode'],1006,"测试失败")
     #     print("这是第二个case")
 
 if __name__ == '__main__':

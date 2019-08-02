@@ -9,7 +9,7 @@ data={
     "referer":"https://m.imooc.com"
 }
 res = requests.post(url,data).json()
-response_url = res['data']['url'][0]
+response_url = res['dataconfig']['url'][0]
 response_url = response_url+"&callback=jQuery210042712711583783314_1562582095923"
 cookie = requests.get(response_url).cookies
 # cookie = requests.utils.dict_from_cookiejar(cookie)

@@ -72,7 +72,7 @@ class TestMethod(unittest.TestCase):
         }
         res = self.run.runmain(url,'GET')
         # print(res)
-        self.assertEqual(res['data']['errorCode'],1006,"测试失败")
+        self.assertEqual(res['dataconfig']['errorCode'],1006,"测试失败")
         print("这是第二个case")
 
 if __name__ == '__main__':

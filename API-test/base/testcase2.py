@@ -33,14 +33,14 @@ class TestMethod(unittest.TestCase):
             }
         # mock模拟这个返回值
         # print('----------------------')
-        # mock_data = mock.Mock(return_value =data)
+        # mock_data = mock.Mock(return_value =dataconfig)
         # # print(mock_data)
         # print('----------------------')
         # self.run.runmain = mock_data
 
-        # self.run.runmain=mock.Mock(return_value =data)
+        # self.run.runmain=mock.Mock(return_value =dataconfig)
         res = mock_test(self.run.runmain,data,url,'POST',data)
-        # res = self.run.runmain(url,'POST',data)
+        # res = self.run.runmain(url,'POST',dataconfig)
         print(res)
         # print('----------------')
         # print(type(res))
@@ -55,12 +55,12 @@ class TestMethod(unittest.TestCase):
     #     # print(self.userid)
     #     # print(userid)
     #     url = 'http://www.imooc.com/m/web/shizhanapi/loadmorepingjia.html'
-    #     data = {
+    #     dataconfig = {
     #     'cart':'11'
     #     }
     #     res = self.run.runmain(url,'GET')
     #     # print(res)
-    #     self.assertEqual(res['data']['errorCode'],1006,"测试失败")
+    #     self.assertEqual(res['dataconfig']['errorCode'],1006,"测试失败")
     #     print("这是第二个case")
 
 if __name__ == '__main__':

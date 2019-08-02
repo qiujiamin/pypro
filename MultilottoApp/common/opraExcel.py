@@ -8,7 +8,7 @@ from MultilottoApp.common.getpathInfo import get_path
 import json
 from xlutils.copy import copy
 
-class ReadExcel:
+class OpraExcel:
     path = get_path()
 
     def __init__(self,excel_name=None,sheet_id=None):
@@ -18,7 +18,7 @@ class ReadExcel:
             print(self.path)
             self.excel_path = os.path.join(self.path, "../testFile",excel_name)  # 文件定位为当前path路径的上一层testfile/excelname
         else:
-            self.excel_name ='mltest7.xlsx'
+            self.excel_name ='mltesttest.xlsx'
             print(self.excel_name)
             self.sheet_id = 0
             print(self.path)
@@ -103,13 +103,13 @@ if __name__ == '__main__':
     # print(r.nrows)
 
     # opers = ReadExcel('mltest.xlsx',0)
-    opers = ReadExcel()
+    opers =  OpraExcel()
     # opers.get_data()
-    print(opers.get_data().nrows)
+    # print(opers.get_data().nrows)
     # print(opers.get_lines())
     # print(opers.get_cell_value(1,9))
-    # print(opers.get_row_num('mm-01'))
-    # print(opers.get_row_values(2))
-    # print(opers.get_rows_data('mm-01'))
-    # print(opers.get_cols_data())
+    print(opers.get_row_num('mm-01'))
+    print(opers.get_row_values(2))
+    print(opers.get_rows_data('mm-01'))
+    print(opers.get_cols_data())
     # 当前仅仅拿到数据，最好实例化类的时候就拿到数据。类实例化的时候调用构造函数

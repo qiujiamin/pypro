@@ -1,8 +1,8 @@
 #! /usr/bin/env/python
 # -*- coding:utf-8 -*-
-from util.operation_excel import OperationExcel
+from utilconf.operation_excel import OperationExcel
 from base.runmethod import RunMethod
-from data.get_data import GetData
+from dataconfig.get_data import GetData
 from jsonpath_rw  import jsonpath,parse
 import json
 class DependentData:
@@ -20,7 +20,7 @@ class DependentData:
 #         拿到行号，获取get_data等需要行号获取
         row_num = self.opera_excel.get_row_num(self.case_id)
         request_data = self.data.get_data_for_json(row_num)
-        # header = self.data.is_header(row_num)
+        # header = self.dataconfig.is_header(row_num)
         # if header == 'yes':
 
         method = self.data.get_request_method(row_num)

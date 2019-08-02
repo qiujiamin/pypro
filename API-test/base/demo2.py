@@ -4,8 +4,8 @@ import  requests
 import json
 class RunMain:
     # 构造函数
-    # def __init__(self,url,method,data=None):
-    #     res = self.runmain(url,method,data)
+    # def __init__(self,url,method,dataconfig=None):
+    #     res = self.runmain(url,method,dataconfig)
     def send_get(self,url,data):
         res = requests.get(url=url,data=data).json()
         return json.dumps(res,indent=2,sort_keys=True)
@@ -21,16 +21,42 @@ class RunMain:
         else:
             res = self.send_post(url,data)
         return json.loads(res)
-# if __name__ == '__main__':
+if __name__ == '__main__':
     # get方法
     # run = RunMain()
     # url = 'http://www.imooc.com/m/web/shizhanapi/loadmorepingjia.html?cart=11'
-    # data = {
+    # dataconfig = {
     #     'cart':'11'
     # }
+    url = 'https://www-dev.multilotto.com/services/lottowarehouse.php'
+    data = {
+        "request_type": "drawing-winners",
+        "data": {
+            "batchnumber": 1,
+            "drawid": 87453,  # /当前期号
+            "is_last_batch": 1,
+            "winners": [{
+                "betid": 9617,  # orderid
+                "correctnumbers": 2,
+                "correctextranumbers": 0,
+                "correctbonusnumbers": 0,
+                "correctrefundnumbers": 0,
+                "payout": "5",  # 中奖金额
+                "payoutcurrency": "EUR",
+                "drawingsremaining": 0,
+                "externalid": "479818366",  # 流水ID
+                "externaluserid": "616621"  # 用户ID
+            }
+            ]
+        },
+        "requestid": 2089,
+        "secret": "28ebc8d1-0578-11e7-a6d0-28924a334c22",
+    }
+    run = RunMain()
+    print(run.runmain(url,'POST',data))
 
     # url = 'https://h5app-dev.multilotto.net/api/user/getcountryidbyip'
-    # data = {
+    # dataconfig = {
     #     "language": "EN",
     #     "platform": "3000",
     #     "remote_addr": "13.230.65.62",
@@ -44,14 +70,14 @@ class RunMain:
     #     "pushproject ": "curacao ",
     #     "uniq ": "D69DE874-EA21-40A7-8DA3-8FDE0BC5DE61",
     # }
-    # run = RunMain(url,'POST',data)
-    # print(run.runmain(url,'POST',data))
+    # run = RunMain(url,'POST',dataconfig)
+    # print(run.runmain(url,'POST',dataconfig))
 
 
 
 
 # url = 'https://h5app-dev.multilotto.net/api/user/getcountryidbyip'
-# data ={
+# dataconfig ={
 # 	"language": "EN",
 #     "platform": "3000",
 # 	"remote_addr": "13.230.65.62",

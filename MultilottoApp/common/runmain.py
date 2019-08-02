@@ -30,24 +30,48 @@ class RunMain:
         return result
 
 if __name__ == '__main__':
-    url = 'https://h5app-dev.multilotto.net/api/user/getcountryidbyip'
+    # url = 'https://h5app-dev.multilotto.net/api/user/getcountryidbyip'
+    # data = {
+    #     "language": "EN",
+    #     "platform": "3000",
+    #     "remote_addr": "13.230.65.62",
+    #     "userid": "",
+    #     "subchannel": "10004",
+    #     "casinoversion": "2.7.0",
+    #     "version": "2.7.0",
+    #     "pushid": "a7b69ace-4b6d-49e4-8ef4-077 c58a182b2 ",
+    #     "usercheck ": "",
+    #     "username ": "",
+    #     "pushproject ": "curacao ",
+    #     "uniq ": "D69DE874-EA21-40A7-8DA3-8FDE0BC5DE61",
+    # }
+    url = 'https://www-dev.multilotto.com/services/lottowarehouse.php'
     data = {
-        "language": "EN",
-        "platform": "3000",
-        "remote_addr": "13.230.65.62",
-        "userid": "",
-        "subchannel": "10004",
-        "casinoversion": "2.7.0",
-        "version": "2.7.0",
-        "pushid": "a7b69ace-4b6d-49e4-8ef4-077 c58a182b2 ",
-        "usercheck ": "",
-        "username ": "",
-        "pushproject ": "curacao ",
-        "uniq ": "D69DE874-EA21-40A7-8DA3-8FDE0BC5DE61",
-    }
-    url1 = 'https://h5app-dev.multilotto.net/en/lotto-results/usa-powerball/2019-07-20?isH5=1'
-    result =RunMain().run_main('post',url,'',data,False)
-    result1 = RunMain().run_main('get',url,'','',False)
+	"request_type": "drawing-winners",
+	"data": {
+            "batchnumber": 1,
+            "drawid": 87453,#/当前期号
+            "is_last_batch": 1,
+            "winners": [{
+                    "betid": 9617,#orderid
+                    "correctnumbers": 2,
+                    "correctextranumbers": 0,
+                    "correctbonusnumbers": 0,
+                    "correctrefundnumbers": 0,
+                    "payout": "5", #中奖金额
+                    "payoutcurrency": "EUR",
+                    "drawingsremaining": 0,
+                    "externalid": "479818366", #流水ID
+                    "externaluserid": "616621"  #用户ID
+                        }
+                    ]
+            },
+    "requestid": 2089,
+    "secret": "28ebc8d1-0578-11e7-a6d0-28924a334c22",
+}
+    # url1 = 'https://h5app-dev.multilotto.net/en/lotto-results/usa-powerball/2019-07-20?isH5=1'
+    result =RunMain().run_main('post',url,'',data,True)
+    # result1 = RunMain().run_main('get',url,'','',False)
     print(result)
-    print(result1)
+    # print(result1)
 

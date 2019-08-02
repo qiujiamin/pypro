@@ -3,10 +3,10 @@
 import json
 # 加载文件基础
 # with open('../dataconfig/login.json','r') as f:
-#     data = json.load(f)
+#     dataconfig = json.load(f)
 # f = open('../dataconfig/login.json',encoding='utf-8')
-# data = json.load(f)
-# print(data['login'])
+# dataconfig = json.load(f)
+# print(dataconfig['login'])
 
 class OperationJson:
     def __init__(self,file_path=None):

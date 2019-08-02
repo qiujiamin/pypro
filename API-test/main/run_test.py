@@ -5,11 +5,11 @@
 # sys.path.append("D:\pypro\API-test")
 from base.runmethod import RunMethod
 from data.get_data import GetData
-from util.common_util import CommonUtil
+from utilconf.common_util import CommonUtil
 from data.depend_data import DependentData
-from util.send_email import SendEmail
-from util.operation_header import OperationHeader
-from util.operation_json import OperationJson
+from utilconf.send_email import SendEmail
+from utilconf.operation_header import OperationHeader
+from utilconf.operation_json import OperationJson
 import xlrd
 class RunTest:
     def __init__(self):
