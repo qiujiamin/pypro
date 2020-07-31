@@ -1,6 +1,6 @@
 from common.readCase import *
 from common.readConfig import *
-from common.configHttp import ConfigHttp
+from waitingToOptmize.configHttp import ConfigHttp
 
 
 """
@@ -10,7 +10,7 @@ from common.configHttp import ConfigHttp
 class BaseService:
     def __init__(self,case_name):
         self.config = ReadConfig()
-        self.case_excel = ReadCase('mltest8.xlsx', '工作表1') #写死，作为这个excel接口测试的用例
+        self.case_excel = ReadCase('mltest4.xlsx', '工作表1') #写死，作为这个excel接口测试的用例
         self.case_name = case_name
         # 这里可能需要改一下
         self.service_url = self.case_excel.get_interface_url(self.case_name)

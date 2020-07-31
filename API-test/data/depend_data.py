@@ -1,9 +1,9 @@
 #! /usr/bin/env/python
 # -*- coding:utf-8 -*-
-from utilconf.operation_excel import OperationExcel
+from utilconf import OperationExcel
 from base.runmethod import RunMethod
 from dataconfig.get_data import GetData
-from jsonpath_rw  import jsonpath,parse
+from jsonpath_rw  import parse
 import json
 class DependentData:
     def __init__(self,case_id):

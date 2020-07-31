@@ -2,9 +2,9 @@
 # -*- coding:utf-8 -*-
 import json
 # 加载文件基础
-# with open('../dataconfig/login.json','r') as f:
+# with open('../dataconfig/logininfo.json','r') as f:
 #     dataconfig = json.load(f)
-# f = open('../dataconfig/login.json',encoding='utf-8')
+# f = open('../dataconfig/logininfo.json',encoding='utf-8')
 # dataconfig = json.load(f)
 # print(dataconfig['login'])
 

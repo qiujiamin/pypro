@@ -13,4 +13,6 @@ def gen_se_personal_number(birthday, thirdnum):
     return nums + check_num[-1]
 
 
-print (gen_se_personal_number('700104', '111'))
+print (gen_se_personal_number('940825', '203'))
+
+# https://www.fakenamegenerator.com/gen-male-sw-sw.php

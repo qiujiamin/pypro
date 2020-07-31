@@ -1,6 +1,6 @@
 #! /usr/bin/env/python
 # -*- coding:utf-8 -*-
-from utilconf.operation_excel import OperationExcel
+from utilconf import OperationExcel
 import data_config
 from utilconf.operation_json import OperationJson
 # 拿excel数据

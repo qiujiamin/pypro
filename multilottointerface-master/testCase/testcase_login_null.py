@@ -1,8 +1,8 @@
 import unittest
 from common.readCase import ReadCase
-from common.configHttp import ConfigHttp
+from waitingToOptmize.configHttp import ConfigHttp
 import json
-from common.log import Log
+from waitingToOptmize.log import Log
 
 
 class LoginNull(unittest.TestCase):

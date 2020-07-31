@@ -2,7 +2,7 @@ import unittest
 from common.readCase import ReadCase
 from common.runmain import RunMain
 import json
-from common.log import Log
+from waitingToOptmize.log import Log
 
 
 class LoginNull(unittest.TestCase):

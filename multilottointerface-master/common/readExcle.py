@@ -1,6 +1,6 @@
 from xlrd import open_workbook
 import os
-from common.getpathInfo import get_path
+from waitingToOptmize.getpathInfo import get_path
 import json
 
 

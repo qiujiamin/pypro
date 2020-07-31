@@ -1,5 +1,5 @@
 import unittest
-from common.log import Log
+from waitingToOptmize.log import Log
 # from MultilottoServiceInterface.PaymentService.getdeposit import Deposit
 from MultilottoServiceInterface.OthersService.feedback import Feedback
 

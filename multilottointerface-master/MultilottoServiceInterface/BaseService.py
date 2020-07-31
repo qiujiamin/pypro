@@ -1,6 +1,6 @@
 from common.readCase import *
 from common.readConfig import *
-from common.configHttp import ConfigHttp
+from waitingToOptmize.configHttp import ConfigHttp
 
 """
     基本接口类，其他接口需继承该类，传入case_name生成对应的接口对象

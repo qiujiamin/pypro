@@ -1,0 +1,35 @@
+
+{
+	"common":{
+		"useragent": "MI 6 ",
+		"pushproject": "curacao",
+		"platform": "4000",
+		"osversion": "5.1.1",
+		"remote_addr": "172.17.100.15",
+		"version": "3.0.0",
+		"resolution": "900x1600",
+		"language": "EN",
+		"pushid": "e4f05aae-e0f0-47bb-92cb-a483cb53199f",
+		"subchannel": "10005",
+		"userid": "",
+		"uniq": "android_b1cbeec9-34a5-4695-ad12-78e49c7798b8_1570689774023",
+		"usercheck": ""
+	},
+	
+	"casino_search":{
+		"pushproject": "curacao",
+		"content": "d",
+		"userid": "",
+		"uniq": "android_b1cbeec9-34a5-4695-ad12-78e49c7798b8_1570689774023",
+		"useragent": "MI 6 ",
+		"platform": "4000",
+		"osversion": "5.1.1",
+		"remote_addr": "172.17.100.15",
+		"version": "3.0.0",
+		"resolution": "900x1600",
+		"language": "EN",
+		"pushid": "e4f05aae-e0f0-47bb-92cb-a483cb53199f",
+		"subchannel": "10005",
+		"usercheck": ""
+	}
+}

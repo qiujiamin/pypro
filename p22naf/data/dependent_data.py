@@ -2,10 +2,10 @@
 import sys
 import json
 sys.path.append('E:/www/ImoocInterface/')
-from utilconf.operation_excel import OperationExcel
+from utilconf import OperationExcel
 from base.runmethod import RunMethod
 from dataconfig.get_data import GetData
-from jsonpath_rw import jsonpath,parse
+from jsonpath_rw import parse
 class DependdentData:
 	def __init__(self,case_id):
 		self.case_id = case_id

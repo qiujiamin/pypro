@@ -1,8 +1,8 @@
 #coding:utf-8
-from utilconf.operation_excel import OperationExcel
+from utilconf import OperationExcel
 import data_config
 from utilconf.operation_json import OperetionJson
-from utilconf.connect_db import OperationMysql
+from python.leaningdic import OperationMysql
 class GetData:
 	def __init__(self):
 		self.opera_excel = OperationExcel()

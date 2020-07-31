@@ -2,7 +2,7 @@
 from result.HTMLTestRunner import HTMLTestRunner
 import unittest
 from testCase.testcase_login import Login
-from common.getpathInfo import get_path
+from waitingToOptmize.getpathInfo import get_path
 import os
 import time
 

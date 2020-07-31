@@ -1,7 +1,7 @@
 #! /usr/bin/env/python
 # -*- coding:utf-8 -*-
 from MultilottoApp.MultilottoServiceInterface.BaseService import BaseService
-from common.configHttp import ConfigHttp
+from waitingToOptmize.configHttp import ConfigHttp
 
 class Login(BaseService):
     """

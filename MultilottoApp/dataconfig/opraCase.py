@@ -1,10 +1,10 @@
 #! /usr/bin/env/python
 # -*- coding:utf-8 -*-
 from common.readConfig import ReadConfig
-from utilconf.operation_json import OperationJson
 from dataconfig import data_config
 from common.opraExcel import  OpraExcel
-import json
+
+
 class OpraCase:
     def __init__(self,excel_name,sheet_id):
         self.excel_name = excel_name

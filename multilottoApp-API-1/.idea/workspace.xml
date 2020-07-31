@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a6a94389-4ed3-4012-b4fd-721b49160f74" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../API-test-1/base/HTMLTestRunner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/base/configDB.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/base/demo2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/base/mokedemo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/base/runmethod.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/base/testcase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/base/testcase1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/base/testcase2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/base/testmock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/case/Login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/case/dictionarymodify.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/case/iostest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/case/listwrite.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/case/login_hardcode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/case/logintest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/case/modifyjson.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/case/parsertest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/case/parsetest1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/case/signup_hardcode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/case/splittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/case/testreturn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/common/TestDB.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/common/configDB.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/common/configHttp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/common/getpathInfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/common/log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/common/opraExcel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/common/opraHttp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/common/readCase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/common/readConfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/common/readExcel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/common/runmain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/data/data_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/data/depend_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/data/get_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/IOS/all.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/IOS/url.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/all.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/all.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/android/all.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/android/alldev/all.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/android/alldev/all.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/android/alldev/buylotto.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/android/alldev/url.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/android/buylotto.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/android/buylotto/buylotto.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/bak/all.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/bak/bak2/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/bak/bak2/cookie.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/bak/bak2/dbconfig.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/bak/bak2/login-android.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/bak/bak2/login-android1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/bak/bak2/login1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/bak/bak2/login2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/bak/bak2/mltes7.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/bak/buylotto.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/bak/casetest.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/bak/cookie.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/bak/error.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/bak/mltes4.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/bak/mltes5 (2).xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/bak/mltes5.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/bak/mltes6.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/bak/mltest-qjm(2).xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/bak/mltest-qjm.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/bak/mltest.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/bak/mltest8.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/bak/mltesttest (2) - 副本.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/bak/mltesttest (2).xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/bak/mltesttest.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/bak/qqtest.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/bak/testdata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/bak/testdata.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/buylotto.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/logininfo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/dataconfig/modifyrequestdata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/demo1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/demo22.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/json.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/main/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/main/run_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/main/run_testbak.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/main/run_testbak2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/python-interfacetest-ml.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/report/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/report/htmlReport.hmtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/report/result_2019-04-22-15_18_35.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/testcase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/unitest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/utilconf/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/utilconf/common_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/utilconf/connecr_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/utilconf/connect_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/utilconf/operation_cookie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/utilconf/operation_cookie1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/utilconf/operation_cookie3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/utilconf/operation_cookietest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/utilconf/operation_excel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/utilconf/operation_header.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/utilconf/operation_json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API-test-1/utilconf/send_email.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MultilottoApp/common/testdb1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MultilottoApp/configfiles/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mmApp-APItest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mmApp-APItest/conf.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mmApp-APItest/one-http-and-token.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mmApp-APItest/two-readconfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multilottoApp-API/utilconf/all.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../multilottointerface-master/testFile/mltest8.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python/fileios/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python/fileios/egg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python/fileios/io_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python/hmtest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python/hmtest/hm_14名片管理系统.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python/leaningdic/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python/leaningdic/all.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python/leaningdic/mockTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python/leaningdic/runMain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python/leaningdic/semailtest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python/leaningdic/semailtest1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python/leaningdic/semailtest1demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python/pythoninstroduction/5-课后习题-员工联系方式列表.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python/pythoninstroduction/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python/pythoninstroduction/birdfly.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python/pythoninstroduction/class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python/pythoninstroduction/functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python/pythoninstroduction/human.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python/pythoninstroduction/qrcodeimg/hh.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python/pythoninstroduction/qrcodesave.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python/pythoninstroduction/randommsncode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python/pythoninstroduction/test11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python/pythoninstroduction/testmoduledata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python/pythoninstroduction/testurl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/pypro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/pypro.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API-test.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API-test/data/depend_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../API-test/data/depend_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API-test/data/get_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../API-test/data/get_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API-test/main/run_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../API-test/main/run_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API-test/report/htmlReport.hmtl" beforeDir="false" afterPath="$PROJECT_DIR$/../API-test/report/htmlReport.hmtl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API-test/util/operation_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/../API-test/util/operation_json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../API-test-1/base/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case/testsuit/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../API-test-1/case/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ML/testCase/testcase_login_null.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ML/testCase/testcase_login_null.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MultilottoApp.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../MultilottoApp.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MultilottoApp/MultilottoServiceInterface/BaseService.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MultilottoApp/MultilottoServiceInterface/BaseService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MultilottoApp/MultilottoServiceInterface/userService/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MultilottoApp/MultilottoServiceInterface/userService/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MultilottoApp/common/configDB.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MultilottoApp/common/configDB.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MultilottoApp/common/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MultilottoApp/common/log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MultilottoApp/common/readConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MultilottoApp/common/readConfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MultilottoApp/dataconfig/data_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MultilottoApp/dataconfig/data_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MultilottoApp/dataconfig/depend_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MultilottoApp/dataconfig/depend_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MultilottoApp/dataconfig/get_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MultilottoApp/dataconfig/get_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MultilottoApp/dataconfig/opraCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MultilottoApp/dataconfig/opraCase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MultilottoApp/main/run_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MultilottoApp/main/run_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MultilottoApp/testFile/mltest-qjm3.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../MultilottoApp/testFile/mltest-qjm3.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MultilottoApp/testcase/testcase_login_null.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MultilottoApp/testcase/testcase_login_null.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MultilottoApp/utilconf/operation_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MultilottoApp/utilconf/operation_json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appiumtest/appium_test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../appiumtest/appium_test1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../multilottointerface-master.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../multilottointerface-master.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../multilottointerface-master/MultilottoServiceInterface/BaseService.py" beforeDir="false" afterPath="$PROJECT_DIR$/../multilottointerface-master/MultilottoServiceInterface/BaseService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../multilottointerface-master/MultilottoServiceInterface/userService/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/../multilottointerface-master/MultilottoServiceInterface/userService/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../multilottointerface-master/common/readConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/../multilottointerface-master/common/readConfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../multilottointerface-master/common/readExcle.py" beforeDir="false" afterPath="$PROJECT_DIR$/../multilottointerface-master/common/readExcle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../multilottointerface-master/result/testResult.py" beforeDir="false" afterPath="$PROJECT_DIR$/../multilottointerface-master/result/testResult.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../multilottointerface-master/testCase/testcase_deposit.py" beforeDir="false" afterPath="$PROJECT_DIR$/../multilottointerface-master/testCase/testcase_deposit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../multilottointerface-master/testCase/testcase_feedback.py" beforeDir="false" afterPath="$PROJECT_DIR$/../multilottointerface-master/testCase/testcase_feedback.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../multilottointerface-master/testCase/testcase_getinfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../multilottointerface-master/testCase/testcase_getinfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../multilottointerface-master/testCase/testcase_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/../multilottointerface-master/testCase/testcase_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../multilottointerface-master/testCase/testcase_login_null.py" beforeDir="false" afterPath="$PROJECT_DIR$/../multilottointerface-master/testCase/testcase_login_null.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../multilottointerface-master/testCase/testcase_payment.py" beforeDir="false" afterPath="$PROJECT_DIR$/../multilottointerface-master/testCase/testcase_payment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../p22naf/data/dependent_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../p22naf/data/dependent_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../p22naf/data/get_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../p22naf/data/get_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../p22naf/main/run_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../p22naf/main/run_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/01-hellopython.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/hmtest/01-hellopython.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/05循环.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/hmtest/05循环.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/hm-07快速体验.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/hmtest/hm-07快速体验.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/hm-08函数打印.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/hmtest/hm-08函数打印.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/hm01-注释.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/hmtest/hm01-注释.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/hm02-变量.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/hmtest/hm02-变量.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/hm03买苹果.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/hmtest/hm03买苹果.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/hm04if语句.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/hmtest/hm04if语句.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/hm06函数.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/hmtest/hm06函数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/hm09列表.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/hmtest/hm09列表.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/hm_10元祖.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/hmtest/hm_10元祖.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/hm_11字典.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/hmtest/hm_11字典.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/hm_12字符串.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/hmtest/hm_12字符串.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/hm_13容器类型公共方法.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/hmtest/hm_13容器类型公共方法.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/hm_14名片管理系统.py" beforeDir="false" afterPath="$PROJECT_DIR$/../API-test-1/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/hm_15变量引申.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/hmtest/hm_15变量引申.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/hm_16局部变量与全局变量.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/hmtest/hm_16局部变量与全局变量.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/newpersonalnumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/newpersonalnumber.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../微信截图_20190513170258.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../微信截图_20190513170510.png" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="362" />
+    <option name="y" value="68" />
+    <option name="width" value="1366" />
+    <option name="height" value="965" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6a94389-4ed3-4012-b4fd-721b49160f74" name="Default Changelist" comment="" />
+      <created>1576220901778</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576220901778</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="362" y="68" width="1366" height="965" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+</project>

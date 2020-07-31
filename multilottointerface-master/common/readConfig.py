@@ -1,6 +1,6 @@
 import os
 import configparser
-from common.getpathInfo import get_path
+from waitingToOptmize.getpathInfo import get_path
 
 
 class ReadConfig:

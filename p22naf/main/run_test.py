@@ -6,7 +6,7 @@ from dataconfig.get_data import GetData
 from utilconf.common_util import CommonUtil
 from dataconfig.dependent_data import DependdentData
 from utilconf.send_email import SendEmail
-from utilconf.operation_header import OperationHeader
+from utilconf import OperationHeader
 from utilconf.operation_json import OperetionJson
 class RunTest:
 	def __init__(self):

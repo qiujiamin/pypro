@@ -1,5 +1,5 @@
 import unittest
-from common.log import Log
+from waitingToOptmize.log import Log
 from MultilottoServiceInterface.userService.accountcenter import *
 from MultilottoServiceInterface.userService.getcountryidbyip import GetCountryIdByIp
 from MultilottoServiceInterface.userService.getnearbyplaces import GetNearByPlaces

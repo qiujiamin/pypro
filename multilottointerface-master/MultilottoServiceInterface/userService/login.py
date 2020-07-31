@@ -1,5 +1,5 @@
 from MultilottoServiceInterface.BaseService import BaseService
-from common.configHttp import ConfigHttp
+from waitingToOptmize.configHttp import ConfigHttp
 
 
 class Login(BaseService):

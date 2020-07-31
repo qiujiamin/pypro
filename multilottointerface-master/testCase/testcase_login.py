@@ -1,7 +1,6 @@
 import unittest
 from MultilottoServiceInterface.userService.login import Login
-import json
-from common.log import Log
+from waitingToOptmize.log import Log
 from MultilottoServiceInterface.userService.logout import LogOut
 
 
