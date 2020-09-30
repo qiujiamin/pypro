@@ -1,0 +1,12 @@
+INFO:root:hello world
+WARNING:root:warning
+ERROR:root:error
+CRITICAL:root:critical info
+INFO:root:hello world
+WARNING:root:warning
+ERROR:root:error
+CRITICAL:root:critical info
+2020-09-03 20:41:53,894 loging_test.py[line:8]INFOhello world
+2020-09-03 20:41:53,894 loging_test.py[line:9]WARNINGwarning
+2020-09-03 20:41:53,894 loging_test.py[line:10]ERRORerror
+2020-09-03 20:41:53,894 loging_test.py[line:11]CRITICALcritical info

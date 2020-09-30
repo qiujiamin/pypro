@@ -1,0 +1,13 @@
+platforName: Android
+platformVersion: 7.1.2
+deviceName: 127.0.0.1:21503
+app: E:\abak\mm_v3.3.1-2020-07-29-15-34.apk
+noReset: False
+appPackage: com.multilotto.lottery
+appActicity: com.multilotto.lottery.module.splash.SplashActivity
+unicodeKeyboard: True
+resetKeyboard: True
+ip: 127.0.0.1
+port: 4723
+
+
