@@ -12,7 +12,7 @@
 import os,sys
 path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, path)
-import unittest
+from unittest import unittest
 import requests
 from core import HTMLTestRunner
 from core import logger

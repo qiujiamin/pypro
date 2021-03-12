@@ -1,4 +1,4 @@
-import unittest
+from unittest import unittest
 from waitingToOptmize.log import Log
 # from MultilottoServiceInterface.PaymentService.getdeposit import Deposit
 from MultilottoServiceInterface.OthersService.feedback import Feedback

@@ -1,4 +1,4 @@
-import unittest
+from unittest import unittest
 from common.readCase import ReadCase
 from waitingToOptmize.configHttp import ConfigHttp
 import json

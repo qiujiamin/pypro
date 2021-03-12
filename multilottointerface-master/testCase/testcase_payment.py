@@ -1,4 +1,4 @@
-import unittest
+from unittest import unittest
 from waitingToOptmize.log import Log
 from MultilottoServiceInterface.OrderService.getpaymentmethods import GetPaymentMethods
 

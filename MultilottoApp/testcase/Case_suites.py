@@ -1,4 +1,4 @@
-import unittest
+from unittest import unittest
 from testCase.testcase_login import Login
 from testCase.testcase_login_null import LoginNull
 

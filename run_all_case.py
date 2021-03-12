@@ -1,7 +1,7 @@
 #! /usr/bin/env/python
 # -*- coding:utf-8 -*-
 # https://www.cnblogs.com/puresoul/p/7490881.html
-import unittest
+from unittest import unittest
 import os
 import time
 import HTMLTestRunner

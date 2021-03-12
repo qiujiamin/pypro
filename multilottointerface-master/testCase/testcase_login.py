@@ -1,4 +1,4 @@
-import unittest
+from unittest import unittest
 from MultilottoServiceInterface.userService.login import Login
 from waitingToOptmize.log import Log
 from MultilottoServiceInterface.userService.logout import LogOut

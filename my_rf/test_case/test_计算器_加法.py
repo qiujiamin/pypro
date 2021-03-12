@@ -10,12 +10,11 @@
 import os,sys
 path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, path)
-import unittest
-from core import HTMLTestRunner
+from unittest import unittest
 from parameterized import parameterized
 from core import logger
 import inspect
-from core.tools import p
+
 
 def cacl(a, b):
     return a+b

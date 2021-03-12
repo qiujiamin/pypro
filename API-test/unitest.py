@@ -1,6 +1,8 @@
 #! /usr/bin/env/python
 # -*- coding:utf-8 -*-
-import unittest
+from unittest import unittest
+
+
 class TestMethod(unittest.TestCase):
     # 只执行一次
     @classmethod

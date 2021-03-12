@@ -1,4 +1,4 @@
-import unittest
+from unittest import unittest
 from testFile.readCase import ReadCase
 from common.runmain import RunMain
 

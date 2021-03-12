@@ -10,7 +10,7 @@ Created on 2016-7-27
 Project:使用unittest框架编写测试用例思路
 '''
 #3.导入unittest模块
-import unittest
+from unittest import unittest
 import HTMLTestRunner
 import time
 #4.定义测试类，父类为unittest.TestCase。
@@ -55,7 +55,7 @@ if __name__=='__main__':
 #unittest.main()方法会搜索该模块下所有以test开头的测试用例方法，并自动执行它们。
 #执行顺序是命名顺序：先执行test_case1，再执行test_case2
     #unittest.main()
-    suite=unittest.TestSuite()
+    suite= unittest.TestSuite()
     suite.addTest(Test('test_case2'))
     suite.addTest(Test('test_case1'))
     now = time.strftime("%Y-%m-%d %H_%M_%S",time.localtime())

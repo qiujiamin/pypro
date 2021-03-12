@@ -1,7 +1,8 @@
 #! /usr/bin/env/python
 # -*- coding:utf-8 -*-
-import unittest
-from demo22 import RunMain
+from unittest import unittest
+
+
 class TestMethod(unittest.TestCase):
     def test_01(self):
         print('testcase1')

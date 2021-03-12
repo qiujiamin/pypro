@@ -1,4 +1,4 @@
-import unittest
+from unittest import unittest
 from waitingToOptmize.log import Log
 from MultilottoServiceInterface.userService.accountcenter import *
 from MultilottoServiceInterface.userService.getcountryidbyip import GetCountryIdByIp

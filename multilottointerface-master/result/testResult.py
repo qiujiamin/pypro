@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from result.HTMLTestRunner import HTMLTestRunner
-import unittest
+from unittest import unittest
 from testCase.testcase_login import Login
 from waitingToOptmize.getpathInfo import get_path
 import os

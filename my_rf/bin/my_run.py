@@ -20,7 +20,7 @@ sys.path.insert(0, path)
 from conf.settings import TESTCASE_PATH
 # 导入配置文件中定义的测试报告的路径
 from conf.settings import REPORT_PATH
-import unittest
+from unittest import unittest
 # 导入报告模板
 from core import HTMLTestRunner
 import time

@@ -1,6 +1,6 @@
 import os
 import time
-import unittest
+from unittest import unittest
 
 from runMain import RunMain
 

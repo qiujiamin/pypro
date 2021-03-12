@@ -1,15 +1,11 @@
 #! /usr/bin/env/python
 # -*- coding:utf-8 -*-
-import unittest
-import io
+from unittest import unittest
 from demo2 import RunMain
 import HTMLTestRunner
-import json
 import time
 import os
 import mock
-from runmethod import RunMethod
-
 
 
 class TestMethod(unittest.TestCase):
