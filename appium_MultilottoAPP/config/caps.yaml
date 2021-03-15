@@ -1,0 +1,25 @@
+platforName: Android
+#模拟器
+platformVersion: 7.1.2
+deviceName: 127.0.0.1:21503
+
+#mx4真机
+#platformVersion: 5.1
+#udid: 750BBKL22GDN
+#deviceName: MX4
+
+appname: E:\abak\mm_v3.3.1-2020-07-29-15-34.apk
+noReset: False
+unicodeKeyboard: True
+resetKeyboard: True
+
+appPackage: com.multilotto.lottery
+appActicity: com.multilotto.lottery.module.splash.SplashActivity
+ip: 127.0.0.1
+port: 4723
+
+
+
+
+
+

@@ -1,0 +1,5 @@
+@echo off
+d:
+cd E:\pypro\appium_MultilottoAPP\test_run
+D:\python371\python.exe run.py
+pause
