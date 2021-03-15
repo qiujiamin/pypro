@@ -7,19 +7,22 @@
       <sourceFolder url="file://$MODULE_DIR$/API-test/data" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/API-test/util" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MultilottoApp/MultilottoServiceInterface/userService" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/appium_MultilottoAPP" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/appium_MultilottoAPP/baseView" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/appium_MultilottoAPP/common" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/appium_MultilottoAPP/BusinessView" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/appium_MultilottoAPP/data" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/appium_MultilottoAPP/config" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/multilottoApp-API-1/base" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/multilottoApp-API-1/case" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/multilottoApp-API-1/data" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/multilottoApp-API-1/dataconfig/android" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/multilottoApp-API-1/dataconfig/bak" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/multilottoApp-API-1/dataconfig/IOS" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/appiumtest/chapter4" />
       <excludeFolder url="file://$MODULE_DIR$/appiumtest/find_element" />
       <excludeFolder url="file://$MODULE_DIR$/appiumtest/test4" />
       <excludeFolder url="file://$MODULE_DIR$/appiumtest/test4/appium_advance" />
       <excludeFolder url="file://$MODULE_DIR$/appiumtest/test4/appium_advance/page_object" />
-      <excludeFolder url="file://$MODULE_DIR$/multilottoApp-API" />
-      <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
