@@ -8,7 +8,6 @@ class RunMethod:
         :param data: 请求数据
         :param header: 请求头
         :return: 字典类型的响应结果
-        ddd
         """
         res = None
         if header !=None:
